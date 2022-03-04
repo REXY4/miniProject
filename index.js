@@ -5,7 +5,7 @@ import configDbMongo from './src/configs/config';
 import route from "./src/routes";
 import cors from 'cors';
 import updateEveryDay from "./src/middlewares/cronJob";
-import cron from 'node-cron';
+
 
 
 require('dotenv').config();
